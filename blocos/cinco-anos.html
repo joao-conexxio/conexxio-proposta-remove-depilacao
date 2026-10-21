@@ -1,0 +1,78 @@
+<section class="blk-cinco" id="historia">
+  <div class="wrap blk-cinco__in">
+    <div class="blk-cinco__cab" data-reveal>
+      <p class="blk-cinco__eyebrow">Outubro de 2021 · outubro de 2026</p>
+      <p class="blk-cinco__num"><span data-count="5">5</span><small>anos</small></p>
+      <h2 class="blk-cinco__titulo">A REMOVE faz cinco anos este mês</h2>
+      <p class="blk-cinco__lead">Começou com uma profissional, uma agenda no WhatsApp e muita cliente com receio de cera. Cinco anos depois, quem atende ainda é a Driele, com a mesma cera quente e o mesmo cuidado com quem chega com medo.</p>
+    </div>
+    <ol class="blk-cinco__linha">
+      <li data-reveal style="--d:0ms">
+        <span class="blk-cinco__ico"><!--icone:agenda--></span>
+        <span class="blk-cinco__ano">2021</span>
+        <strong>A primeira cliente</strong>
+        <p>A Driele abre a REMOVE em jornada dupla, encaixando cada horário entre um compromisso e outro. Cera quente, material descartável e uma cliente por vez desde o primeiro dia.</p>
+      </li>
+      <li data-reveal style="--d:120ms">
+        <span class="blk-cinco__ico"><!--icone:estrela--></span>
+        <span class="blk-cinco__ano">2023</span>
+        <strong>Mão mais rápida, mesma calma</strong>
+        <p>Aos dois anos, 144 avaliações de cinco estrelas. A virilha completa, que no começo levava uma hora, passa a levar de 20 a 30 minutos. Menos tempo de cera é menos tempo de desconforto.</p>
+      </li>
+      <li data-reveal style="--d:240ms">
+        <span class="blk-cinco__ico"><!--icone:check--></span>
+        <span class="blk-cinco__ano">2026</span>
+        <strong>Cinco anos, nota 5,0</strong>
+        <p>São <span data-count="165">165</span> avaliações no Google, todas somando a mesma média. Várias contam a mesma história: chegaram com receio da cera e saíram querendo voltar.</p>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<style>
+.blk-cinco{padding-block:var(--sp-section);background:color-mix(in srgb,var(--brand) 5%,var(--bg))}
+.blk-cinco__in{display:grid;gap:var(--sp-5);align-items:start}
+.blk-cinco__eyebrow{
+  margin:0;font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-cinco__num{
+  display:flex;align-items:baseline;gap:.15em;margin:var(--sp-2) 0 0;
+  font-family:var(--f-display);font-weight:500;line-height:.95;color:var(--pulse);
+  font-size:clamp(7rem,30vw,15rem);
+}
+.blk-cinco__num small{
+  font-size:clamp(1.4rem,5vw,2.2rem);line-height:1;color:var(--brand);font-style:italic;
+}
+.blk-cinco__titulo{
+  margin:var(--sp-4) 0 0;font-family:var(--f-display);font-size:var(--t-h2);
+  line-height:var(--lh-display);text-wrap:balance;color:var(--ink);
+}
+.blk-cinco__lead{margin:var(--sp-3) 0 0;max-width:34rem;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+.blk-cinco__linha{
+  list-style:none;margin:0;padding:0 0 0 var(--sp-4);display:grid;gap:var(--sp-4);
+  border-left:1px solid color-mix(in srgb,var(--brand) 35%,transparent);
+}
+.blk-cinco__linha li{position:relative}
+.blk-cinco__linha li::before{
+  content:"";position:absolute;left:calc(-1 * var(--sp-4) - 6px);top:.5rem;
+  width:11px;height:11px;border-radius:50%;background:var(--bg);border:2px solid var(--brand);
+}
+.blk-cinco__linha li:last-child::before{background:var(--pulse);border-color:var(--pulse)}
+.blk-cinco__ico{display:inline-flex;width:2.2rem;height:2.2rem;color:var(--brand)}
+.blk-cinco__ico svg{width:100%;height:100%}
+.blk-cinco__ano{
+  display:block;margin-top:var(--sp-2);font-family:var(--f-body);font-size:var(--t-label);
+  letter-spacing:var(--eyebrow-track);text-transform:uppercase;color:var(--brand);
+}
+.blk-cinco__linha strong{
+  display:block;margin-top:.3em;font-family:var(--f-display);font-size:1.6rem;
+  font-weight:500;line-height:1.15;color:var(--ink);
+}
+.blk-cinco__linha p{margin:var(--sp-2) 0 0;line-height:1.6;color:color-mix(in srgb,var(--ink) 72%,transparent)}
+@media (min-width:64rem){
+  .blk-cinco__in{grid-template-columns:5fr 6fr;gap:var(--sp-6,6rem)}
+  .blk-cinco__cab{position:sticky;top:7rem}
+  .blk-cinco__linha{gap:var(--sp-5);padding-top:var(--sp-4)}
+}
+</style>

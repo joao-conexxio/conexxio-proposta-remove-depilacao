@@ -1,0 +1,251 @@
+{
+  "slug": "remove-depilacao",
+  "negocio": {
+    "nome": "REMOVE · espaço de (d)epilação",
+    "logo": "brand/logo.png",
+    "whatsapp": "5547997754942",
+    "unidades": [
+      {
+        "bairro": "Aventureiro · Joinville/SC",
+        "endereco": "R. Roberto da Veiga Coutinho, 291 – Aventureiro, Joinville – SC, 89225-770",
+        "telefone": "(47) 99775-4942",
+        "horario": "Com hora marcada, inclusive à noite"
+      }
+    ]
+  },
+  "marca": {
+    "brand": "#8E4A52",
+    "brand2": "#6B3239",
+    "ink": "#2E1D20",
+    "bg": "#FBF5F4",
+    "pulse": "#C87880",
+    "radius": "14px",
+    "registro": "editorial",
+    "fontDisplay": "Playfair Display",
+    "fontBody": "DM Sans",
+    "tomHero": "claro",
+    "tomCorpo": "claro"
+  },
+  "motivo": "camadas",
+  "secoes": [
+    {
+      "id": "header",
+      "variant": "sticky-cta",
+      "data": {
+        "links": [
+          { "texto": "Áreas", "href": "#tratamentos" },
+          { "texto": "5 anos", "href": "#historia" },
+          { "texto": "Dúvidas", "href": "#faq" },
+          { "texto": "Onde fica", "href": "#unidades" }
+        ]
+      }
+    },
+    {
+      "id": "hero",
+      "variant": "split-motivo",
+      "data": {
+        "eyebrow": "Joinville · desde 2021",
+        "h1": "Depilação a cera, sem medo",
+        "lead": "Cera quente com hora marcada no Aventureiro, em Joinville. Material descartável a cada cliente e virilha completa em 20 a 30 minutos.",
+        "cta": "Agendar pelo WhatsApp",
+        "ctaSecundario": "Ver as áreas",
+        "ctaSecundarioHref": "#tratamentos",
+        "selo": "5,0 no Google · 165 avaliações · ",
+        "cardTitulo": "Fale direto com a Driele",
+        "imagem": "midia/driele-5anos.jpg",
+        "imagemAlt": "Driele, de camiseta rosa, sorrindo e segurando um bolo com o logo da REMOVE",
+        "arte": "grao"
+      }
+    },
+    {
+      "id": "fita",
+      "data": {
+        "itens": [
+          "Cera quente",
+          "Virilha completa",
+          "Pernas",
+          "Axila",
+          "Buço",
+          "Material descartável",
+          "Hora marcada",
+          "Aventureiro · Joinville"
+        ]
+      }
+    },
+    {
+      "id": "numeros",
+      "variant": "faixa",
+      "data": {
+        "titulo": "O que as clientes deixaram registrado",
+        "itens": [
+          { "valor": "5,0", "rotulo": "de nota no Google" },
+          { "valor": "165", "rotulo": "avaliações de clientes", "contar": 165 },
+          { "valor": "5", "rotulo": "anos completos em outubro", "contar": 5 },
+          { "valor": "20–30", "rotulo": "minutos numa virilha completa" }
+        ]
+      }
+    },
+    {
+      "id": "manifesto",
+      "variant": "faixa",
+      "data": {
+        "eyebrow": "Quem atende",
+        "citacao": "Depilação não é só estética. É autocuidado.",
+        "autor": "Driele, da REMOVE",
+        "texto": [
+          "Uma experiência ruim com cera marca. Muita cliente chega à REMOVE depois de uma: pele irritada, pelo quebrado, a sensação de ter sido atendida com pressa. Por isso a Driele começa explicando o que vai fazer, e só depois aquece a cera.",
+          "O material é descartável, um para cada cliente. A cera é quente, puxa o pelo pela raiz sem arrastar a pele, e a técnica afinada em cinco anos deixa a sessão curta. Pix, dinheiro e cartão, para a depilação não ficar para o mês que vem."
+        ]
+      }
+    },
+    {
+      "id": "tratamentos",
+      "variant": "pilha",
+      "data": {
+        "titulo": "As áreas",
+        "lead": "Toda área é feita com cera quente. A diferença está na quantidade, na temperatura e no sentido da puxada.",
+        "itens": [
+          {
+            "nome": "Virilha completa",
+            "descricao": "A área de quem mais tem receio. Com a técnica de hoje, leva de 20 a 30 minutos, sem quebrar o pelo e sem deixar a pele marcada.",
+            "duracao": "20 a 30 min",
+            "icone": "mulher"
+          },
+          {
+            "nome": "Pernas",
+            "descricao": "A pele fica lisa por semanas, sem a coceira e o pelo grosso que a lâmina deixa quando volta.",
+            "icone": "pe"
+          },
+          {
+            "nome": "Axila",
+            "descricao": "Rápida, e onde a cera mais ajuda contra o pelo encravado e a mancha escura de tanto passar lâmina.",
+            "icone": "pele"
+          },
+          {
+            "nome": "Buço e rosto",
+            "descricao": "Pelo fino em pele fina: pouca cera, na temperatura certa, para não avermelhar o rosto.",
+            "icone": "rosto"
+          },
+          {
+            "nome": "Outras áreas",
+            "descricao": "Quer juntar áreas na mesma sessão? Pergunte no WhatsApp: a Driele responde com o que faz, o tempo e o valor de cada uma.",
+            "icone": "conversa"
+          }
+        ]
+      }
+    },
+    { "custom": "blocos/cinco-anos.html" },
+    {
+      "id": "depoimentos",
+      "variant": "citacoes",
+      "data": {
+        "titulo": "Quem tinha medo e voltou",
+        "itens": [
+          {
+            "texto": "Sempre tive receio de me depilar e acabar sofrendo, mas com a Driele descobri que amo depilação com cera, e não quero nunca mais voltar pro gilete.",
+            "autor": "Petra M.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Super rápida, cuidadosa, atenciosa, cera excelente. Sou super sensível à dor e no corpo não senti dor nenhuma.",
+            "autor": "Bruna G.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Tudo descartável, me passou muita confiança e, principalmente, tirou todos os pelos sem quebrar. Uma pessoa super calma e atenciosa.",
+            "autor": "Vanessa R.",
+            "contexto": "Avaliação no Google"
+          },
+          {
+            "texto": "Me deixou bem tranquila, sem falar da cera maravilhosa que não me fez sentir dor.",
+            "autor": "Jessica A.",
+            "contexto": "Avaliação no Google"
+          }
+        ]
+      }
+    },
+    {
+      "id": "passos",
+      "variant": "timeline",
+      "data": {
+        "titulo": "Da mensagem à próxima sessão",
+        "itens": [
+          {
+            "titulo": "Chame no WhatsApp",
+            "texto": "Diga a área e o dia que prefere. A Driele responde com o horário livre, inclusive à noite.",
+            "icone": "conversa"
+          },
+          {
+            "titulo": "Deixe o pelo crescer",
+            "texto": "Mais ou menos do tamanho de um grão de arroz. Sem lâmina nos dias anteriores, para a cera pegar o pelo inteiro.",
+            "icone": "folha"
+          },
+          {
+            "titulo": "A sessão",
+            "texto": "Material descartável só seu, cera quente na temperatura certa e cada passo explicado antes, se for sua primeira vez.",
+            "icone": "spa"
+          },
+          {
+            "titulo": "Volte em três a quatro semanas",
+            "texto": "É quando o pelo volta no tamanho certo, e mais fino a cada sessão. Já saia com o próximo horário combinado.",
+            "icone": "agenda"
+          }
+        ]
+      }
+    },
+    {
+      "id": "faq",
+      "variant": "colunas",
+      "data": {
+        "titulo": "Antes de marcar",
+        "itens": [
+          {
+            "p": "Dói?",
+            "r": "Incomoda por um instante na puxada, e menos a cada sessão, porque o pelo volta mais fino. Se for a primeira vez, avise: a Driele explica cada passo antes de começar."
+          },
+          {
+            "p": "Qual o tamanho ideal do pelo?",
+            "r": "Mais ou menos o de um grão de arroz. Curto demais, a cera não pega; comprido demais, a puxada incomoda mais. Na prática, três a quatro semanas depois da última depilação."
+          },
+          {
+            "p": "Ajuda com pelo encravado?",
+            "r": "Ajuda. A lâmina corta o pelo rente e ele volta com ponta grossa, que encrava. A cera tira pela raiz e o pelo volta mais fino."
+          },
+          {
+            "p": "Posso passar lâmina entre uma sessão e outra?",
+            "r": "Melhor não. A lâmina corta o pelo no meio, ele volta grosso, e a próxima cera pega menos. Segure até a data marcada."
+          },
+          {
+            "p": "Quais formas de pagamento?",
+            "r": "Pix, dinheiro e cartão de crédito ou débito."
+          },
+          {
+            "p": "Precisa agendar?",
+            "r": "Sim, o atendimento é com hora marcada, pelo WhatsApp. Assim ninguém espera e cada cliente tem o tempo dela."
+          }
+        ]
+      }
+    },
+    {
+      "id": "unidades",
+      "variant": "unica",
+      "data": {
+        "titulo": "No Aventureiro, em Joinville"
+      }
+    },
+    {
+      "id": "cta-final",
+      "variant": "bloco-cheio",
+      "data": {
+        "h2": "Perca o medo da cera",
+        "lead": "Mande a área e o dia que prefere. A Driele responde com o horário livre mais próximo.",
+        "cta": "Agendar pelo WhatsApp"
+      }
+    },
+    {
+      "id": "footer",
+      "variant": "assinatura",
+      "data": {}
+    }
+  ]
+}
